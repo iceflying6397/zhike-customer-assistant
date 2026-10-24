@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>知客 · 客户信息助手</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="logo">知</span><div><b>知客</b><small>客户信息助手 · Demo</small></div></div>
+    <div class="topbar-right">
+      <span id="today" class="muted"></span>
+      <button id="push-btn" class="btn ghost">今日推送 <span id="push-count" class="badge hidden"></span></button>
+      <button id="settings-btn" class="btn ghost">设置</button>
+      <span id="user" class="user"></span>
+    </div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="sidebar-title">我的客户</div>
+      <ul id="customer-list"></ul>
+      <div class="legend">
+        <div class="legend-title">简报里的三种句子</div>
+        <div><span class="layer-dot fact"></span>事实：系统里明确发生的事</div>
+        <div><span class="layer-dot ask"></span>客户诉求：客户说过的话</div>
+        <div><span class="layer-dot infer"></span>AI 推断：模型的判断，附理由</div>
+        <div class="legend-note">每句话后的编号可点开原文</div>
+      </div>
+    </aside>
+
+    <main id="main">
+      <div class="empty">从左侧选择一个客户</div>
+    </main>
+
+    <aside id="drawer" class="drawer hidden">
+      <div class="drawer-head"><b>原文出处</b><button class="btn ghost small" id="drawer-close">关闭</button></div>
+      <div id="drawer-body"></div>
+    </aside>
+  </div>
+
+  <div id="push-panel" class="push-panel hidden">
+    <div class="push-head"><b>知客助手</b><span class="muted">· 工作群消息（界面示意）</span><button class="btn ghost small" id="push-close">关闭</button></div>
+    <div id="push-body"></div>
+  </div>
+
+  <div id="settings" class="modal-mask hidden">
+    <div class="modal">
+      <div class="modal-head"><b>设置</b><button class="btn ghost small" id="settings-close">关闭</button></div>
+
+      <section>
+        <h4>① API 连接</h4>
+        <p class="muted">大模型接的是 DeepSeek，Key 配置在服务端。</p>
+        <div class="row"><button class="btn primary" id="ping-btn">测试连接</button></div>
+        <div id="ping-status" class="key-status"></div>
+      </section>
+
+      <section>
+        <h4>② 重新开始演示</h4>
+        <div class="row"><button class="btn" id="demo-reset">重置演示</button><span class="muted">录屏前点一下：清空页面上已展示的简报、问答、采纳记录，回到初始状态</span></div>
+      </section>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

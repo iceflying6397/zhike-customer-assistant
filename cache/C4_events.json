@@ -1,0 +1,105 @@
+{
+  "data": [
+    {
+      "type": "阶段变化",
+      "date": "2025-08-30",
+      "content": "一期排课系统签约，合同金额60万，标志客户合作进入签约阶段",
+      "people": [
+        "王悦"
+      ],
+      "due_date": "",
+      "source_id": "R401",
+      "quote": "一期排课系统签约，60万。",
+      "verified": true
+    },
+    {
+      "type": "关键事实",
+      "date": "2026-03-15",
+      "content": "新学期排课顺利完成，钱芳反馈排课系统比去年节省教务3天工作量",
+      "people": [
+        "孙婷",
+        "钱芳"
+      ],
+      "due_date": "",
+      "source_id": "R402",
+      "quote": "新学期排课顺利，钱芳反馈比去年节省了教务3天的工作量。",
+      "verified": true
+    },
+    {
+      "type": "需求",
+      "date": "2026-09-08",
+      "content": "江北新校区明年开学，需要扩容排课系统，预算约45万已报批",
+      "people": [
+        "郑凯",
+        "王悦"
+      ],
+      "due_date": "",
+      "source_id": "R403",
+      "quote": "郑主任说明年江北新校区开学，要扩容，预算45万左右已经报批。",
+      "verified": true
+    },
+    {
+      "type": "需求",
+      "date": "2026-09-08",
+      "content": "客户要求11月中旬前提供合同草稿",
+      "people": [
+        "郑凯",
+        "王悦"
+      ],
+      "due_date": "2026-11-15",
+      "source_id": "R403",
+      "quote": "要求11月中旬前给合同草稿。",
+      "verified": true
+    },
+    {
+      "type": "关键事实",
+      "date": "2026-10-10",
+      "content": "合同草稿已发送给郑主任，对方法务正在审核",
+      "people": [
+        "王悦",
+        "郑凯"
+      ],
+      "due_date": "",
+      "source_id": "R404",
+      "quote": "已把合同草稿发给郑主任，他们法务在审。",
+      "verified": true
+    },
+    {
+      "type": "问题投诉",
+      "date": "2026-10-22",
+      "content": "客户法务对合同提出两条修改意见：付款节点、数据归属",
+      "people": [
+        "郑凯",
+        "王悦"
+      ],
+      "due_date": "",
+      "source_id": "R405",
+      "quote": "郑主任说法务提了两条修改：付款节点、数据归属。",
+      "verified": true
+    },
+    {
+      "type": "我方承诺",
+      "date": "2026-10-22",
+      "content": "王悦答应下周就法务提出的付款节点、数据归属修改意见给予回复",
+      "people": [
+        "王悦"
+      ],
+      "due_date": "2026-10-29",
+      "source_id": "R405",
+      "quote": "我答应下周给回复。",
+      "verified": true
+    }
+  ],
+  "usage": {
+    "model": "deepseek-flash",
+    "input_tokens": 901,
+    "output_tokens": 552
+  },
+  "validation": {
+    "removed": 0,
+    "bad_ids": 1,
+    "unverified_quotes": 0,
+    "removed_items": []
+  },
+  "generated_at": "2026-10-24 17:03:42"
+}

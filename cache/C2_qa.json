@@ -1,0 +1,220 @@
+{
+  "data": {
+    "客户为什么可能不续约？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "何峰提出明年增加司机端App的要求。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R201",
+                "quote": "何总要求明年加司机端App。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "我方承诺司机端App于Q2上线。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R203",
+                "quote": "我们说Q2上线。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "司机端App实际延期至Q3。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R204",
+                "quote": "司机端App延期到Q3，",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "何峰对司机端App的进度不满意。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R203",
+                "quote": "何总对司机端App的进度不满意。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "何峰表示有竞品在接触他们，报价便宜三成左右。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R203",
+                "quote": "他说有竞品在接触他们，报价便宜三成左右。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "司机端App延期后，何峰表示不太高兴，并说续约要再评估一下。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R204",
+                "quote": "他不太高兴，说续约要再评估一下。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "2026年7月，林晓投诉6月账单多扣了一个月服务费。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R205",
+                "quote": "林晓投诉：6月账单多扣了一个月服务费。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "我方已将多扣服务费问题转财务核实。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R205",
+                "quote": "已转财务核实。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "司机端App已正式上线并通知何峰，但何峰暂未回复。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R206",
+                "quote": "给何总发了司机端App正式上线的通知和使用手册，暂未回复。",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "综合司机端App进度不满意、延期至Q3、竞品低价接触、账单争议以及上线通知未回复，推断客户续约意愿可能降低。",
+            "layer": "AI推断",
+            "sources": [
+              {
+                "id": "R203",
+                "quote": "何总对司机端App的进度不满意。",
+                "verified": true
+              },
+              {
+                "id": "R204",
+                "quote": "司机端App延期到Q3，跟何总解释了，他不太高兴，说续约要再评估一下。",
+                "verified": true
+              },
+              {
+                "id": "R205",
+                "quote": "6月账单多扣了一个月服务费",
+                "verified": true
+              },
+              {
+                "id": "R206",
+                "quote": "暂未回复",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1584,
+        "output_tokens": 7182
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "客户为什么可能不续约？",
+      "generated_at": "2026-10-24 17:01:41"
+    },
+    "6 月多扣费的问题解决了吗？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "6月账单多扣费问题，记录显示已转财务核实。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R205",
+                "quote": "6月账单多扣了一个月服务费",
+                "verified": true
+              },
+              {
+                "id": "R205",
+                "quote": "已转财务核实",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": "记录中没有显示多扣费问题的最终解决结果，建议向孙婷或财务确认。"
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1587,
+        "output_tokens": 2101
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "6 月多扣费的问题解决了吗？",
+      "generated_at": "2026-10-24 17:02:04"
+    },
+    "竞品报价是多少？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "记录中提到竞品报价便宜三成左右，但没有具体价格金额。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R203",
+                "quote": "他说有竞品在接触他们，报价便宜三成左右",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": "记录中没有竞品的具体报价金额，可向客户何峰确认。"
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1582,
+        "output_tokens": 1324
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "竞品报价是多少？",
+      "generated_at": "2026-10-24 17:02:19"
+    }
+  },
+  "generated_at": "2026-10-24 17:02:19"
+}

@@ -1,0 +1,143 @@
+{
+  "data": [
+    {
+      "type": "关键事实",
+      "date": "2025-12-20",
+      "content": "客户续签2026年订阅，金额36万/年，到期日为12月31日。",
+      "people": [
+        "陈磊",
+        "何峰"
+      ],
+      "due_date": "",
+      "source_id": "R201",
+      "quote": "续签2026年订阅，36万/年，到期日12月31日。",
+      "verified": true
+    },
+    {
+      "type": "需求",
+      "date": "2025-12-20",
+      "content": "何峰要求明年增加司机端App。",
+      "people": [
+        "何峰"
+      ],
+      "due_date": "",
+      "source_id": "R201",
+      "quote": "何总要求明年加司机端App。",
+      "verified": true
+    },
+    {
+      "type": "问题投诉",
+      "date": "2026-02-15",
+      "content": "林晓反馈调度看板周一早高峰卡顿，已排查为对方网络问题并告知林晓。",
+      "people": [
+        "林晓",
+        "孙婷"
+      ],
+      "due_date": "",
+      "source_id": "R202",
+      "quote": "林晓反馈：调度看板周一早高峰卡顿。已排查，是对方网络问题，已告知林晓。",
+      "verified": true
+    },
+    {
+      "type": "顾虑",
+      "date": "2026-04-10",
+      "content": "何峰对司机端App进度不满意；有竞品在接触客户，报价便宜约三成。",
+      "people": [
+        "何峰",
+        "陈磊"
+      ],
+      "due_date": "",
+      "source_id": "R203",
+      "quote": "何总对司机端App的进度不满意，我们说Q2上线。他说有竞品在接触他们，报价便宜三成左右。",
+      "verified": true
+    },
+    {
+      "type": "我方承诺",
+      "date": "2026-04-10",
+      "content": "我方承诺司机端App于Q2上线。",
+      "people": [
+        "陈磊"
+      ],
+      "due_date": "2026-06-30",
+      "source_id": "R203",
+      "quote": "何总对司机端App的进度不满意，我们说Q2上线。",
+      "verified": true
+    },
+    {
+      "type": "阶段变化",
+      "date": "2026-05-20",
+      "content": "司机端App延期到Q3，何峰表示续约要再评估。",
+      "people": [
+        "陈磊",
+        "何峰"
+      ],
+      "due_date": "",
+      "source_id": "R204",
+      "quote": "司机端App延期到Q3，跟何总解释了，他不太高兴，说续约要再评估一下。",
+      "verified": true
+    },
+    {
+      "type": "问题投诉",
+      "date": "2026-07-08",
+      "content": "林晓投诉6月账单多扣一个月服务费，已转财务核实。",
+      "people": [
+        "林晓",
+        "孙婷"
+      ],
+      "due_date": "",
+      "source_id": "R205",
+      "quote": "林晓投诉：6月账单多扣了一个月服务费。【处理】已转财务核实。",
+      "verified": true
+    },
+    {
+      "type": "我方承诺",
+      "date": "2026-07-08",
+      "content": "我方转财务核实6月账单多扣服务费问题。",
+      "people": [
+        "孙婷"
+      ],
+      "due_date": "",
+      "source_id": "R205",
+      "quote": "已转财务核实。",
+      "verified": true
+    },
+    {
+      "type": "关键事实",
+      "date": "2026-08-12",
+      "content": "已向何峰发送司机端App正式上线通知和使用手册，暂未回复。",
+      "people": [
+        "陈磊",
+        "何峰"
+      ],
+      "due_date": "",
+      "source_id": "R206",
+      "quote": "给何总发了司机端App正式上线的通知和使用手册，暂未回复。",
+      "verified": true
+    },
+    {
+      "type": "人员变动",
+      "date": "2026-10-26",
+      "content": "陈磊离职，客户交接给王悦。",
+      "people": [
+        "陈磊",
+        "王悦"
+      ],
+      "due_date": "2026-10-31",
+      "source_id": "A2",
+      "quote": "陈磊：销售；2026-10-31 离职，客户交接给王悦",
+      "verified": false
+    }
+  ],
+  "usage": {
+    "model": "deepseek-flash",
+    "input_tokens": 1032,
+    "output_tokens": 753
+  },
+  "validation": {
+    "removed": 0,
+    "bad_ids": 0,
+    "unverified_quotes": 1,
+    "removed_items": []
+  },
+  "generated_at": "2026-10-24 16:51:09"
+}

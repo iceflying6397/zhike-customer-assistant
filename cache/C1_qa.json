@@ -1,0 +1,218 @@
+{
+  "data": {
+    "二期客户的预算是多少？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "李总表示二期心理价位在120万以内。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R112",
+                "quote": "他心里价位是120万以内",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "系统商机记录中二期金额为150万，阶段为方案报价（高意向）。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "O12",
+                "quote": "金额：150 万｜阶段：方案报价（高意向）",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 2831,
+        "output_tokens": 1965
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "二期客户的预算是多少？",
+      "generated_at": "2026-10-24 17:00:57"
+    },
+    "王志强现在还负责这个项目吗？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "王志强已于2026年2月底离职，不再负责该项目。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R108",
+                "quote": "王志强2月底已经离职了，去了宁波一家公司",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "信息部现已由赵磊（原IT主管）负责，需要重新建立关系。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R108",
+                "quote": "信息部现在是赵磊负责（原来的IT主管）",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 2833,
+        "output_tokens": 1322
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "王志强现在还负责这个项目吗？",
+      "generated_at": "2026-10-24 17:01:12"
+    },
+    "客户对一期满不满意？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "一期系统上线后，客户整体认可。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R104",
+                "quote": "客户整体认可",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "一期上线后出现日报表打开慢的问题，车间主任反馈很大，李总在周会上点名。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R105",
+                "quote": "日报表打开要40多秒，车间主任反馈很大，周敏转达说李总在周会上点名了",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "性能优化后，报表打开时间小于3秒，周敏确认OK。",
+            "layer": "事实",
+            "sources": [
+              {
+                "id": "R106",
+                "quote": "打开时间小于3秒，周敏确认OK",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "赵磊对一期评价一般般，认为报表不够灵活。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R109",
+                "quote": "对一期评价一般般，觉得报表还是不够灵活",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "在二期需求沟通中，客户仍担心再次出现上次报表慢的问题。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R110",
+                "quote": "还担心再出现上次报表慢的问题",
+                "verified": true
+              }
+            ]
+          },
+          {
+            "text": "综合来看，客户对一期整体满意度一般：上线时客户整体认可且性能问题已解决，但赵磊评价一般且客户仍有报表方面的顾虑，说明对一期存在保留意见。",
+            "layer": "AI推断",
+            "sources": [
+              {
+                "id": "R104",
+                "quote": "客户整体认可",
+                "verified": true
+              },
+              {
+                "id": "R105",
+                "quote": "日报表打开要40多秒，车间主任反馈很大",
+                "verified": true
+              },
+              {
+                "id": "R106",
+                "quote": "打开时间小于3秒，周敏确认OK",
+                "verified": true
+              },
+              {
+                "id": "R109",
+                "quote": "对一期评价一般般，觉得报表还是不够灵活",
+                "verified": true
+              },
+              {
+                "id": "R110",
+                "quote": "还担心再出现上次报表慢的问题",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 2831,
+        "output_tokens": 6769
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "客户对一期满不满意？",
+      "generated_at": "2026-10-24 17:02:13"
+    },
+    "那 12 台老机床客户打算怎么处理？": {
+      "data": {
+        "found": false,
+        "statements": [],
+        "missing_note": "记录中没有相关信息，建议向赵磊或周敏确认客户对12台老机床的处理打算。"
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 2837,
+        "output_tokens": 396
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "那 12 台老机床客户打算怎么处理？",
+      "generated_at": "2026-10-24 17:02:19"
+    }
+  },
+  "generated_at": "2026-10-24 17:02:19"
+}

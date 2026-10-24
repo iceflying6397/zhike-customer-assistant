@@ -1,0 +1,57 @@
+{
+  "data": {
+    "这个客户的决策人是谁？": {
+      "data": {
+        "found": false,
+        "statements": [],
+        "missing_note": "记录中没有相关信息，建议向联系人吴倩或客户方进一步确认决策人。"
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1166,
+        "output_tokens": 228
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "这个客户的决策人是谁？",
+      "generated_at": "2026-10-24 17:00:40"
+    },
+    "他们的预算大概多少？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "客户表示预算还没定，暂无法得知大概金额。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R302",
+                "quote": "吴倩说他们在看两家，预算还没定",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": "记录中没有具体预算金额，建议向吴倩确认。"
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1165,
+        "output_tokens": 1186
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "他们的预算大概多少？",
+      "generated_at": "2026-10-24 17:00:57"
+    }
+  },
+  "generated_at": "2026-10-24 17:00:57"
+}

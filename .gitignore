@@ -1,0 +1,10 @@
+# 本地环境
+.venv/
+__pycache__/
+.DS_Store
+
+# 密钥：API Key 只配置在 EdgeOne 的环境变量里，任何本地密钥文件都不要上传
+config.json
+.env
+.env.*
+*.key

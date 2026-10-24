@@ -1,0 +1,67 @@
+{
+  "data": [
+    {
+      "type": "关键事实",
+      "date": "2026-09-02",
+      "content": "在医疗器械展上获取吴倩名片，吴倩对质量追溯感兴趣，表示今年要应对飞检。",
+      "people": [
+        "吴倩",
+        "王悦"
+      ],
+      "due_date": "",
+      "source_id": "R301",
+      "quote": "医疗器械展上留了名片，吴倩，对质量追溯感兴趣，说今年要应对飞检。",
+      "verified": true
+    },
+    {
+      "type": "需求",
+      "date": "2026-09-02",
+      "content": "客户对质量追溯系统有需求，动机是应对今年的飞行检查。",
+      "people": [
+        "吴倩"
+      ],
+      "due_date": "",
+      "source_id": "R301",
+      "quote": "对质量追溯感兴趣，说今年要应对飞检。",
+      "verified": true
+    },
+    {
+      "type": "关键事实",
+      "date": "2026-09-25",
+      "content": "客户正在对比两家供应商，预算尚未确定，要求先发送资料；我方已发送资料。",
+      "people": [
+        "吴倩",
+        "王悦"
+      ],
+      "due_date": "",
+      "source_id": "R302",
+      "quote": "吴倩说他们在看两家，预算还没定，让先发资料。已发资料。",
+      "verified": true
+    },
+    {
+      "type": "阶段变化",
+      "date": "2026-10-20",
+      "content": "客户同意下周三（2026-10-28）安排线上会议，并将邀请其IT人员参加。",
+      "people": [
+        "吴倩",
+        "王悦"
+      ],
+      "due_date": "2026-10-28",
+      "source_id": "R303",
+      "quote": "吴倩说下周三可以约个线上会，会拉上他们IT一起。",
+      "verified": true
+    }
+  ],
+  "usage": {
+    "model": "deepseek-flash",
+    "input_tokens": 798,
+    "output_tokens": 320
+  },
+  "validation": {
+    "removed": 0,
+    "bad_ids": 0,
+    "unverified_quotes": 0,
+    "removed_items": []
+  },
+  "generated_at": "2026-10-24 16:55:25"
+}

@@ -1,0 +1,69 @@
+{
+  "data": {
+    "法务提了哪些修改？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "客户法务提出两条修改：付款节点、数据归属。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R405",
+                "quote": "法务提了两条修改：付款节点、数据归属",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1352,
+        "output_tokens": 795
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "法务提了哪些修改？",
+      "generated_at": "2026-10-24 17:00:45"
+    },
+    "客户对一期的评价怎么样？": {
+      "data": {
+        "found": true,
+        "statements": [
+          {
+            "text": "钱芳反馈一期排课系统比去年节省了教务3天的工作量，且新学期排课顺利。",
+            "layer": "客户诉求",
+            "sources": [
+              {
+                "id": "R402",
+                "quote": "新学期排课顺利，钱芳反馈比去年节省了教务3天的工作量",
+                "verified": true
+              }
+            ]
+          }
+        ],
+        "missing_note": ""
+      },
+      "usage": {
+        "model": "deepseek-v4-pro",
+        "input_tokens": 1352,
+        "output_tokens": 1408
+      },
+      "validation": {
+        "removed": 0,
+        "bad_ids": 0,
+        "unverified_quotes": 0,
+        "removed_items": []
+      },
+      "question": "客户对一期的评价怎么样？",
+      "generated_at": "2026-10-24 17:01:02"
+    }
+  },
+  "generated_at": "2026-10-24 17:01:02"
+}
